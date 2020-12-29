@@ -15,3 +15,8 @@ def user_login(request):
     print("登录成功")
 
     return HttpResponse("Success")
+
+
+def user_logout(request):
+    retu
+    HHHH
