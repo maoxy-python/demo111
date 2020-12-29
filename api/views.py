@@ -7,3 +7,11 @@ def index(request):
     print("这是我的第一个视图")
 
     return HttpResponse("OK")
+
+
+def user_login(request):
+    """登录逻辑"""
+
+    print("登录成功")
+
+    return HttpResponse("Success")
