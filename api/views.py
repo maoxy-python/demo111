@@ -21,3 +21,7 @@ def user_logout(request):
     print("登出")
 
     return HttpResponse("登出成功")
+
+
+def test(request):
+    return HttpResponse("OK")
